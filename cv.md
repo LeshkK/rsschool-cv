@@ -106,4 +106,4 @@
 
 **Pre-Intermediate**
 
-I studied English at school, at university and to the present. For practice I use mobile apps such as Duolingo, Lingualeo, PuzzleEnglish and watch video on YouTube (and on other services) on English. I also use Quizlet to memorize new words.
+I studied English at school, at university and to the present. For practice I use mobile apps such as *Duolingo, Lingualeo, PuzzleEnglish* and watch video on *YouTube* (and on other services) on English. I also use *Quizlet* to memorize new words.
