@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(53, 56, 54);
+    font-size: 18px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+}
+
+img {
+ width: 60%;
+ border-radius: 10%;
+ margin-top: 10px;
+ }
+
+pre,
+code {
+  font-family: "Courier New", "Courier", monospace;
+  color: #6a2cce;
+}
+
+.main {
+   margin: 0 auto;
+   width: 1024px;
+   background-color: rgb(255, 255, 255);
+   color: black;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.photo, .contacts, .skills, .education, .eng  {
+    border: 1px solid rgb(71, 70, 70);
+    width: 329.3px;
+    text-align: center;
+    margin: 5px;
+}
+
+.summary, .example {
+    width: 100%;
+}
+
+.education, .eng {
+    width: 490px;
+    text-align: left;
+    padding: 5px;
+}
+
+.code {
+    word-wrap: break-word;
+    overflow-y: scroll;
+    /*overflow-x: visible;*/
+    height: 500px;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 10px 70px 10px 70px;
+}

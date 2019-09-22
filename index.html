@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Vladislav Leshkov CV</title>
+</head>
+<body>
+    <code class="main">
+            <h1>Curriculum Vitae</h1>
+            <div class="photo"><img src="./image/i.jpg" alt="My photo">
+            <h2><b>Vladislav Leshkov</b></h2>
+            <h3><em>Minsk, Belarus</em></h3></div>
+            <div class="contacts"><h2><b>Contacts</b></h2>
+            <ul>
+            <li>Tel: +375 (29) 875-58-38</li>
+            <li>E-mail: <a href="mailto:leshkov.1998@mail.ru">leshkov.1998@mail.ru</a></li>
+            <li><a href="https://github.com/LeshkK">GitHab</a></li>
+            </ul></div>
+            <div class="skills"><h2 class="code-line" data-line-start=19 data-line-end=20 ><a id="Skills_19"></a><b>Skills</b></h2>
+            <p><em>I have some experience with:</em></p>
+            <ul>
+                <li>HTML, CSS, JS</li>
+                <li>Photoshop, Shotcut</li>
+                <li>Git/GitHub</li>
+                <li>VS Code, Visual Studio 2019</li>
+            </ul></div>
+            <div class="summary"><h2><b>Summary</b></h2>
+            <blockquote>
+            <p><b>My goal</b> as a Junior developer is to gain experience on real projects, be useful to my team, learn from advanced developers and grow to Senior Developer. <b>Grow up in development</b>  and learning new things from everywhere. I always try to improve my skills in all areas and achieve the most effective result.<br>
+            <b><em>I really like what I’m doing!</em></b><br>
+            I study HTML/CSS/JS and English on my own. I have some experience in programming in C/C++, PHP, SQL and Photoshop.</p>
+            </blockquote></div>
+            <hr>
+            <div class="example"><h2></a><b>Code examples</b></h2>
+            <div class="code"><pre><code>
+let Lcolor1;
+let sizeVal1;
+let Lsize1;
+let textArea;
+            
+function TextArea1() {textArea = 1; Lsize1 = 'small'; sizeVal1= '3';}
+            
+function Red()
+{   
+    if (textArea == 1)
+    {
+        Lcolor1 = &quot;red&quot;
+        document.getElementById(&quot;p&quot;).innerHTML = &quot;&quot; ; 
+        document.getElementById(&quot;p&quot;).insertAdjacentHTML( 'beforeend', '&lt;font color ='+ Lcolor1 + ' size = '+ sizeVal1 + '&gt;' + document.getElementById(&quot;text1&quot;).value + '&lt;/font&gt;'); 
+    }
+}
+            
+function Green()
+{
+    if (textArea == 1)
+    {
+        Lcolor1 = 'green'
+        document.getElementById(&quot;p&quot;).innerHTML = &quot;&quot; ;
+        document.getElementById(&quot;p&quot;).insertAdjacentHTML( 'beforeend', '&lt;font color ='+ Lcolor1 + ' size = '+ sizeVal1 + '&gt;' + document.getElementById(&quot;text1&quot;).value + '&lt;/font&gt;');
+    }
+}
+            
+function Blue()
+{
+    if (textArea == 1)
+    {
+        Lcolor1 = &quot;blue&quot;
+        document.getElementById(&quot;p&quot;).innerHTML = &quot;&quot; ;
+        document.getElementById(&quot;p&quot;).insertAdjacentHTML( 'beforeend', '&lt;font color ='+ Lcolor1 + ' size = '+ sizeVal1 + '&gt;' + document.getElementById(&quot;text1&quot;).value + '&lt;/font&gt;');
+        }
+}
+            
+function Size ()
+{
+    if (textArea == 1)
+    {
+        if (document.getElementById(&quot;size&quot;).value == &quot;Small&quot;)
+        {
+            Lsize1 = 'small'; sizeVal1= '3';
+        }
+        if (document.getElementById(&quot;size&quot;).value == &quot;Large&quot;)
+        {
+            Lsize1 = 'large'; sizeVal1= '6';
+        }
+        if (document.getElementById(&quot;size&quot;).value == &quot;Medium&quot;)
+        {
+            Lsize1 = 'medium'; sizeVal1= '5';
+        }
+    }
+}
+            
+function Add()
+{
+    document.getElementById(&quot;p1&quot;).insertAdjacentText( 'beforeend', Lsize1   + &quot; &quot; + Lcolor1 + &quot; &quot; + document.getElementById(&quot;text1&quot;).value + &quot;  ||  &quot;);
+document.getElementById(&quot;text1&quot;).value = &quot;&quot;;
+} 
+            </code></pre></div></div>
+            <div class="education"><h2><b>Education</b></h2>
+            <p><b>Name of the Education Establishment:</b> BELARUSIAN  STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS<br>
+            <b>Faculty/College:</b> Faculty of Innovative Lifelong Learning<br>
+            <b>Degree (diploma):</b> Student (2021)</p>
+            <p><b>Online learning:</b> <a href="https://htmlacademy.ru/profile/id1194779">HTML Academy</a></p></div>
+            <div class="eng"><h2><b>English Level</b></h2>
+            <p><b>Pre-Intermediate</b></p>
+            <p>I studied English at school, at university and to the present. For practice I use mobile apps such as Duolingo, Lingualeo, PuzzleEnglish and watch video on YouTube (and on other services) on English. I also use Quizlet to memorize new words.</p></div>
+            
+    </div>
+  
+</body>
+</html>
